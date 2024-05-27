@@ -1,0 +1,212 @@
+:root {
+  --main-color: #631463;
+  --active-color: #7C3B7C;
+  --text-dark: #000000;
+  --text-white: #FFFFFF;
+}
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: var(--text-dark);
+  background-color: #FFFFFF;
+  position: relative;
+}
+a {
+  transition: all 300ms;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+button {
+  transition: all 300s;
+}
+.re-btn-light {
+  background-color: var(--text-white);
+  color: var(--main-color);
+  width: 13.75rem;
+  height: 3.125rem;
+  border-radius: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+.re-btn-light:hover {
+  background-color: #F0F0F0;
+}
+.re-btn-dark {
+  background-color: var(--main-color);
+  color: var(--text-white);
+  width: 13.75rem;
+  height: 3.125rem;
+  border-radius: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+.re-btn-dark:hover {
+  background-color: var(--active-color);
+  color: var(--text-white);
+}
+/* Navbar */
+.re-nav-contact {
+  display: flex;
+  align-items: center;
+}
+.re-nav-contact img {
+  height: 1.4rem;
+  width: 1.4rem;
+}
+.re-nav-contact .re-contact-phone {
+  color: var(--text-dark);
+  font-size: 0.8rem;
+  margin: auto;
+}
+.re-nav-contact .re-contact-phone:hover {
+  color: var(--main-color);
+}
+.re-language-dropdown {
+  border: none;
+  padding: 0 !important;
+}
+.re-dropdown-menu {
+  padding: 0;
+  border: 1px solid #182d49;
+  border-radius: 0;
+  min-width: unset;
+  left: inherit !important;
+  right: 0 !important;
+  position: absolute;
+  z-index: 999;
+}
+.re-dropdown-menu .dropdown-item.active {
+  color: var(--active-color);
+}
+.re-dropdown-menu .dropdown-item {
+  color: var(--text-dark);
+  border-bottom: 1px solid var(--main-color);
+  padding: 0.5rem 0.5rem;
+}
+.re-dropdown-menu:last-child {
+  border-bottom: none;
+}
+/* Header */
+.re-header {
+  background-color: var(--main-color);
+  padding: 0.75rem 0;
+  transition: 0.3s ease all;
+}
+.re-navbar-right .navbar-nav {
+  justify-content: end;
+}
+.re-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.re-navbar-left, .re-navbar-right {
+  width: 40%;
+}
+.re-navbar-center {
+  width: 20%;
+  text-align: center;
+}
+.re-logo {
+  padding: 0;
+  margin: 0;
+}
+.re-logo img {
+  height: 3.875rem;
+  transition: all 0.3s;
+}
+.re-navbar .navbar-icons .nav-item {
+  margin-left: 2.5rem;
+}
+.re-mob-nav {
+  display: none;
+}
+.re-hamburger {
+  background-color: var(--active-color);
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* video section */
+.re-section-video video {
+  width: 100%;
+}
+section {
+  margin-bottom: 6rem;
+}
+/* rector secrion */
+.re-section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.re-content-desc {
+  line-height: 2.2rem;
+  margin-bottom: 2.5rem;
+}
+.re-content-rector-name {
+  margin-bottom: 1rem;
+}
+.re-content-position {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+/*  */
+.re-section-advantages {
+  background-color: #F8F8F8;
+  padding: 6rem 0;
+}
+.re-advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.re-advantages-item {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 0 1rem;
+}
+.re-item-inner {
+  padding: 1rem;
+  border-radius: 20px;
+}
+.re-item-inner:hover {
+  box-shadow: 20px 20px 50px grey;
+  transition: .5s ease;
+}
+.re-item-icon {
+  background-color: var(--main-color);
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+}
+.re-item-text {
+  text-align: center;
+  line-height: 2rem;
+  height: 8rem;
+  overflow: hidden;
+}
