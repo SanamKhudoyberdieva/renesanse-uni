@@ -162,4 +162,11 @@
         flex-direction: column;
         text-align: center;
     }
+    .re-footer-desc {
+        width: 100%;
+    }
+    .re-advantages-list {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
