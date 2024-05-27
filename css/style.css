@@ -106,6 +106,9 @@ button {
   background-color: var(--main-color);
   padding: 0.75rem 0;
   transition: 0.3s ease all;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
 }
 .re-navbar-right .navbar-nav {
   justify-content: end;
@@ -474,4 +477,31 @@ footer {
 }
 #menuModal .re-hamburger {
   padding: 0.4rem;
+}
+#back-top {
+  position: fixed;
+  display: flex;
+  right: 20px;
+  bottom: 80px;
+  background-color: var(--active-color);
+  border-radius: 50%;
+  padding: 0.875rem;
+  -webkit-transition: 0.7s all cubic-bezier(0.03, 0.88, 0.34, 0.97);
+  transition: 0.7s all cubic-bezier(0.03, 0.88, 0.34, 0.97);
+  -webkit-box-shadow: 0 5px 18px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 18px 2px rgba(0, 0, 0, 0.2);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  z-index: 999;
+}
+#back-top.visible {
+  visibility: visible;
+  opacity: 0.9;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+#back-top.visible:hover {
+  opacity: 1;
 }
