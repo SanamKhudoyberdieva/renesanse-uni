@@ -149,8 +149,24 @@ button {
   justify-content: center;
 }
 /* video section */
+.re-section-video {
+  position: relative;
+}
 .re-section-video video {
   width: 100%;
+  display: block;
+  opacity: 1;
+}
+.re-section-video .re-btn-light {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  font-size: 2rem;
 }
 section {
   margin-bottom: 6rem;
