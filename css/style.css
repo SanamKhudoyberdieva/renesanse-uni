@@ -271,6 +271,7 @@ section {
   background: url(../img/university_bg.webp) center/cover no-repeat;
   display: flex;
   align-items: center;
+  background-attachment: fixed;
 }
 .re-section-statistics::before {
   content: '';
