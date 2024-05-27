@@ -63,6 +63,7 @@
     }
     .re-section-advantages {
         padding: 2rem 0;
+        margin-bottom: 0;
     }
     .re-item-text {
         line-height: 1.2rem;

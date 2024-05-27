@@ -462,3 +462,9 @@ footer .re-email a {
 .re-footer-ic-sm {
   display: none;
 }
+.re-footer-ic:hover {
+  background-color: var(--active-color);
+}
+.slick-arrow:hover {
+  background-color: var(--active-color);
+}
