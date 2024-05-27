@@ -410,20 +410,20 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-footer .re-footer-label {
+.re-footer-label {
   font-size: 1.125rem;
   color: var(--text-white);
 }
-footer .re-phone,
-footer .re-email {
+.re-phone,
+.re-email {
   margin-bottom: 1.875rem;
 }
-footer .re-phone a {
+.re-phone a {
   font-size: 1.875rem;
   color: var(--text-white);
   font-weight: 500;
 }
-footer .re-email a {
+.re-email a {
   font-size: 1.3rem;
   color: var(--text-white);
 }
@@ -467,4 +467,32 @@ footer .re-email a {
 }
 .slick-arrow:hover {
   background-color: var(--active-color);
+}
+/* Menu modal */
+#menuModal .modal-body  {
+  background-color: var(--active-color);
+}
+#menuModal .modal-header {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+#menuModal .modal-header .btn {
+  padding-right: 0;
+}
+.re-menu-modal-item {
+  border-radius: 0.5rem;
+  border: 1px solid var(--active-color);
+  background-color: var(--text-white);
+  margin-bottom: 1rem;
+}
+.re-menu-modal-item:last-child {
+  margin-bottom: 0;
+}
+.re-menu-modal-item a {
+  color: var(--text-dark);
+  padding: 0 !important;
+
+}
+#menuModal .re-hamburger {
+  padding: 0.4rem;
 }
