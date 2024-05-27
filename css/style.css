@@ -108,7 +108,7 @@ button {
   transition: 0.3s ease all;
   position: sticky;
   top: 0;
-  z-index: 1020;
+  z-index: 99;
 }
 .re-navbar-right .navbar-nav {
   justify-content: end;
@@ -504,4 +504,84 @@ footer {
 }
 #back-top.visible:hover {
   opacity: 1;
+}
+.re-breadcrumb {
+  padding: 2rem 0;
+}
+.re-breadcrumb a {
+  color: #74708e;
+  white-space: nowrap;
+}
+.re-breadcrumb a svg {
+  margin-left: 8px;
+}
+.breadcrumb .active {
+  color: #171142;
+}
+/* About */
+.re-content {
+  width: 100%;
+  padding: 15px 20px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  min-height: 350px;
+}
+.re-content-body {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--text-dark);
+}
+.re-content-img-wrp {
+  width: 100%;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+  padding: 20px 30px;
+}
+.re-content-title {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--main-color);
+  margin-bottom: 0;
+  text-align: center;
+}
+.re-content-img-item {
+  margin-top: 20px;
+  padding: 15px 25px;
+  background-color: #FBFBFB;
+}
+.re-content-img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1.5rem;
+}
+.re-content-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.re-content-img-desc {
+  font-size: 15px;
+  line-height: 135.9%;
+  color: var(--text-dark);
+  margin-bottom: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: bold;
+}
+.re-university-name {
+  font-size: 4rem;
+  color: var(--main-color);
+}
+.re-university-desc {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
 }

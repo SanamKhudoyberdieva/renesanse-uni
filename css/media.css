@@ -167,4 +167,13 @@
         margin-left: 0;
         margin-right: 0;
     }
+    .re-university-name {
+        font-size: 2rem;
+    }
+    .re-sidebar {
+        margin-top: 2rem;
+    }
+    .re-content-img-wrp {
+        padding: 20px;
+    }
 }
