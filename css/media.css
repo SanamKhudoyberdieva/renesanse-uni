@@ -4,13 +4,9 @@
     }
 }
 @media (max-width: 1440px) {
-
-}
-@media screen and (max-width: 1200px) {
-
-}
-@media screen and (max-width: 991px) {
-
+    .re-sm-contact-map {
+        display: none;
+    }
 }
 @media only screen and (max-width: 768px) {
     .re-nav-contact span {
