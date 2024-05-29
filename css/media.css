@@ -193,7 +193,9 @@
         font-size: 1rem;
     }
     .re-doc-item {
-        margin-right: 5px;
+        margin-right: 0px;
+        width: 100%;
+        margin-bottom: 6px;
     }
     .re-doc-item:last-child {
         margin-bottom: 0;
@@ -204,5 +206,8 @@
     }
     .re-breadcrumb {
         padding: 1rem 0;
+    }
+    .re-university-doc {
+        flex-direction: column;
     }
 }
