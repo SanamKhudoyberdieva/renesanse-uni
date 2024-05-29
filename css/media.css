@@ -210,4 +210,10 @@
     .re-university-doc {
         flex-direction: column;
     }
+    .re-content, .re-content-img-wrp {
+        padding: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        min-height: auto;
+    }
 }
