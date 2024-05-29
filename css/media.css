@@ -135,9 +135,13 @@
     .re-footer-group {
         margin-bottom: 3.125rem;
     }
+    .re-footer-logo-wrp {
+        margin-bottom: 1.875rem;
+        width: 100px;
+        height: 100px;
+    }
     .re-footer-logo {
         height: 4.125rem;
-        margin-bottom: 1.875rem;
     }
     .re-footer-group .re-footer-label,
     .re-footer-group .nav-item {
@@ -193,5 +197,12 @@
     }
     .re-doc-item:last-child {
         margin-bottom: 0;
+    }
+    .re-navbar-center {
+        width: 13%;
+        height: 50px;
+    }
+    .re-breadcrumb {
+        padding: 1rem 0;
     }
 }

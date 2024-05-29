@@ -1,6 +1,6 @@
 :root {
-  --main-color: #631463;
-  --active-color: #7C3B7C;
+  --main-color:#05913a;
+  --active-color: #25d569;
   --text-dark: #000000;
   --text-white: #FFFFFF;
 }
@@ -120,11 +120,16 @@ button {
   justify-content: space-between;
 }
 .re-navbar-left, .re-navbar-right {
-  width: 40%;
+  width: 45%;
 }
 .re-navbar-center {
-  width: 20%;
-  text-align: center;
+  width: 8%;
+  height: 85px;
+  background-color: var(--text-white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .re-logo {
   padding: 0;
@@ -196,23 +201,22 @@ button {
 }
 @-webkit-keyframes re-btn-register {
   0% {
-    -webkit-box-shadow: 0 4px 10px rgba(99, 20, 99, 0.2), 0 0 0 0 rgba(99, 20, 99, 0.2), 0 0 0 5px rgba(99, 20, 99, 0.2), 0 0 0 10px rgba(99, 20, 99, 0.2);
-    box-shadow: 0 4px 10px rgba(99, 20, 99, 0.2), 0 0 0 0 rgba(99, 20, 99, 0.2), 0 0 0 5px rgba(99, 20, 99, 0.2), 0 0 0 10px rgba(99, 20, 99, 0.2); 
+    -webkit-box-shadow: 0 4px 10px rgba(5, 145, 58, 0.2), 0 0 0 0 rgba(5, 145, 58, 0.2), 0 0 0 5px rgba(5, 145, 58, 0.2), 0 0 0 10px rgba(5, 145, 58, 0.2);
+    box-shadow: 0 4px 10px rgba(5, 145, 58, 0.2), 0 0 0 0 rgba(5, 145, 58, 0.2), 0 0 0 5px rgba(5, 145, 58, 0.2), 0 0 0 10px rgba(5, 145, 58, 0.2); 
   }
   100% {
-    -webkit-box-shadow: 0 4px 10px rgba(99, 20, 99, 0.2), 0 0 0 5px rgba(99, 20, 99, 0.2), 0 0 0 10px rgba(99, 20, 99, 0.2), 0 0 0 20px rgba(99, 20, 99, 0);
-    box-shadow: 0 4px 10px rgba(99, 20, 99, 0.2), 0 0 0 5px rgba(99, 20, 99, 0.2), 0 0 0 10px rgba(99, 20, 99, 0.2), 0 0 0 20px rgba(99, 20, 99, 0); 
+    -webkit-box-shadow: 0 4px 10px rgba(5, 145, 58, 0.2), 0 0 0 5px rgba(5, 145, 58, 0.2), 0 0 0 10px rgba(5, 145, 58, 0.2), 0 0 0 20px rgba(5, 145, 58, 0);
+    box-shadow: 0 4px 10px rgba(5, 145, 58, 0.2), 0 0 0 5px rgba(5, 145, 58, 0.2), 0 0 0 10px rgba(5, 145, 58, 0.2), 0 0 0 20px rgba(5, 145, 58, 0); 
   } 
 }
-
 @keyframes cc-calto-action-ripple {
   0% {
-    -webkit-box-shadow: 0 4px 10px rgba(99, 20, 99, 0.2), 0 0 0 0 rgba(99, 20, 99, 0.2), 0 0 0 5px rgba(99, 20, 99, 0.2), 0 0 0 10px rgba(99, 20, 99, 0.2);
-    box-shadow: 0 4px 10px rgba(99, 20, 99, 0.2), 0 0 0 0 rgba(99, 20, 99, 0.2), 0 0 0 5px rgba(99, 20, 99, 0.2), 0 0 0 10px rgba(99, 20, 99, 0.2); 
+    -webkit-box-shadow: 0 4px 10px rgba(5, 145, 58, 0.2), 0 0 0 0 rgba(5, 145, 58, 0.2), 0 0 0 5px rgba(5, 145, 58, 0.2), 0 0 0 10px rgba(5, 145, 58, 0.2);
+    box-shadow: 0 4px 10px rgba(5, 145, 58, 0.2), 0 0 0 0 rgba(5, 145, 58, 0.2), 0 0 0 5px rgba(5, 145, 58, 0.2), 0 0 0 10px rgba(5, 145, 58, 0.2); 
   }
   100% {
-    -webkit-box-shadow: 0 4px 10px rgba(99, 20, 99, 0.2), 0 0 0 5px rgba(99, 20, 99, 0.2), 0 0 0 10px rgba(99, 20, 99, 0.2), 0 0 0 20px rgba(99, 20, 99, 0);
-    box-shadow: 0 4px 10px rgba(99, 20, 99, 0.2), 0 0 0 5px rgba(99, 20, 99, 0.2), 0 0 0 10px rgba(99, 20, 99, 0.2), 0 0 0 20px rgba(99, 20, 99, 0); 
+    -webkit-box-shadow: 0 4px 10px rgba(5, 145, 58, 0.2), 0 0 0 5px rgba(5, 145, 58, 0.2), 0 0 0 10px rgba(5, 145, 58, 0.2), 0 0 0 20px rgba(5, 145, 58, 0);
+    box-shadow: 0 4px 10px rgba(5, 145, 58, 0.2), 0 0 0 5px rgba(5, 145, 58, 0.2), 0 0 0 10px rgba(5, 145, 58, 0.2), 0 0 0 20px rgba(5, 145, 58, 0); 
   } 
 }
 section {
@@ -450,7 +454,6 @@ footer {
   justify-content: space-between;
 }
 .re-footer-logo {
-  margin-bottom: 2.5rem;
   height: 6.125rem;
   width: auto;
 }
@@ -493,6 +496,16 @@ footer {
 .re-email a {
   font-size: 1.3rem;
   color: var(--text-white);
+}
+.re-footer-logo-wrp {
+  background-color: var(--text-white);
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2.5rem;
 }
 .re-footer-group .re-footer-label {
   margin-bottom: 1rem;
@@ -659,7 +672,7 @@ footer {
   margin-top: 1rem;
 }
 .re-doc-item {
-  background-color: #f2faff;
+  background-color: #e1fae9;
   border-radius: 0.5rem;
   padding: 0.5rem;
   width: 268px;
@@ -668,7 +681,7 @@ footer {
 }
 .re-doc-img {
   border-radius: 8px;
-  border: 1px solid #cceaff;
+  border: 1px solid var(--active-color);
   background: var(--text-white);
   padding: 10px;
   display: flex;
@@ -677,5 +690,5 @@ footer {
 .re-doc-item a {
   margin: auto 0;
   font-weight: 400;
-  color: var(--text-dark);
+  color: var(--main-color);
 }
