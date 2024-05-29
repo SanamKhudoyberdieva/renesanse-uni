@@ -72,6 +72,7 @@ button {
   color: var(--text-dark);
   font-size: 0.8rem;
   margin: auto;
+  margin-right: 8px;
 }
 .re-nav-contact .re-contact-phone:hover {
   color: var(--main-color);
@@ -224,6 +225,10 @@ section {
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
+.re-content {
+  position: sticky;
+  top: 120px;
+}
 .re-content-desc {
   line-height: 2.2rem;
   margin-bottom: 2.5rem;
@@ -273,7 +278,7 @@ section {
 .re-item-text {
   text-align: center;
   line-height: 2rem;
-  height: 8rem;
+  height: 6.2rem;
   overflow: hidden;
 }
 /*  */
@@ -330,7 +335,7 @@ section {
   position: relative;
   width: 100%;
   height: 360px;
-  background: url(../img/university_bg.webp) center/cover no-repeat;
+  background: url(../img/texnikum_1.jpg) center/cover no-repeat;
   display: flex;
   align-items: center;
   background-attachment: fixed;
@@ -394,18 +399,12 @@ section {
   align-items: center;
   justify-content: center;
 }
-
 .re-partners-slider .slick-next {
   right: -1rem;
 }
-
 .re-partners-slider .slick-prev {
   left: -1rem;
 }
-.re-partners-slider {
-  margin-top: 10vh;
-}
-
 .re-partners-slider .re-partner-item {
   display: flex;
   box-sizing: border-box;
@@ -421,7 +420,6 @@ section {
   display: block;
   padding-bottom: 100%;
 }
-
 .re-partner-item img {
   position: absolute;
   top: 50%;
@@ -438,7 +436,6 @@ section {
   height: 48px;
   overflow: hidden;
 }
-
 .re-partner-brand-item-wrapper {
   padding: 0.625rem;
 }
@@ -460,8 +457,12 @@ footer {
 .re-footer-info {
   display: flex;
   align-items: center;
+  justify-content: end;
   color: var(--text-white);
-  margin-bottom: 1.875rem;
+  margin-bottom: 1rem;
+}
+.re-footer-info:last-child {
+  margin-bottom: 0;
 }
 .re-footer-ic {
   border-radius: 50%;
@@ -482,7 +483,7 @@ footer {
 }
 .re-phone,
 .re-email {
-  margin-bottom: 1.875rem;
+  margin-bottom: 1rem;
 }
 .re-phone a {
   font-size: 1.875rem;
@@ -507,7 +508,7 @@ footer {
   text-align: end;
 }
 .re-footer-desc {
-  width: 25rem;
+  width: 20rem;
   color: var(--text-white);
   font-size: 0.9rem;
 }
@@ -640,11 +641,41 @@ footer {
   font-weight: bold;
 }
 .re-university-name {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--main-color);
 }
 .re-university-desc {
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 1rem;
+}
+.re-university-fac {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.re-university-doc {
+  display: flex;
+  margin-top: 1rem;
+}
+.re-doc-item {
+  background-color: #f2faff;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  width: 268px;
+  display: flex;
+  margin-right: 24px;
+}
+.re-doc-img {
+  border-radius: 8px;
+  border: 1px solid #cceaff;
+  background: var(--text-white);
+  padding: 10px;
+  display: flex;
+  margin-right: 12px;
+}
+.re-doc-item a {
+  margin: auto 0;
+  font-weight: 400;
+  color: var(--text-dark);
 }

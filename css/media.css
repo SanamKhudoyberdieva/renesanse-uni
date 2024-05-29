@@ -108,9 +108,13 @@
         flex-wrap: wrap;
     }
     .re-statistics-item {
-        flex: 0 0 100%;
-        max-width: 100%;
-        margin-bottom: 0.8rem;
+        flex: 0 0 50%;
+        max-width: 50%;
+        margin-bottom: 2.5rem;
+    }
+    .re-statistics-item:nth-last-child(2),
+    .re-statistics-item:nth-last-child(1) {
+        margin-bottom: 0;
     }
     .re-statistics-item img {
         height: 25px;
@@ -156,6 +160,9 @@
     .re-footer-info .re-footer-ic {
         display: none;
     }
+    .re-footer-info {
+        justify-content: start;
+    }
     .re-footer-bottom {
         flex-direction: column;
         text-align: center;
@@ -180,5 +187,11 @@
         width: 6rem;
         height: 6rem;
         font-size: 1rem;
-}
+    }
+    .re-doc-item {
+        margin-right: 5px;
+    }
+    .re-doc-item:last-child {
+        margin-bottom: 0;
+    }
 }
