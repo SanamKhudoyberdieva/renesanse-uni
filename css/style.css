@@ -289,6 +289,9 @@ section {
 .re-section-rector-two .re-content-rec-img {
   margin-bottom: 2rem;
 }
+.re-content-rec-img img {
+  height: 570px;
+}
 /* Contact section */
 .re-section-contact {
   background-color: #F8F8F8;

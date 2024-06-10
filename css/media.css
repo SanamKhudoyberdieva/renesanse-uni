@@ -57,6 +57,9 @@
         width: 2rem;
         height: 2rem;
     }
+    .re-content-rec-img img {
+        height: 370px;
+    }
     .re-section-advantages {
         padding: 2rem 0;
         margin-bottom: 0;
